@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:columnCount="2"
+    android:padding="10dp"
+    tools:context=".Activity.ListaViagemActivity">
+
+    <TextView
+        android:id="@+id/textNomeMotorista"
+        android:textSize="18dp"
+        android:layout_columnSpan="2"
+        android:text="Nome Motorista:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/textEnderecoSaida"
+        android:textSize="18dp"
+        android:layout_columnSpan="2"
+        android:text="Endereco Saida:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/textEnderecoChegada"
+        android:textSize="18dp"
+        android:layout_columnSpan="2"
+        android:text="EnderecoChegada:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_columnSpan="2">
+        <TextView
+            android:layout_weight="1"
+            android:id="@+id/textDataSaida"
+            android:textSize="16dp"
+            android:text="Data Saida:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_weight="1"
+            android:id="@+id/textDataChegada"
+            android:textSize="16dp"
+            android:text="Data de Chegada:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+</GridLayout>

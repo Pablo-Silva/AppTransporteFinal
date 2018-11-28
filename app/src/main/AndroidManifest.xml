@@ -51,6 +51,15 @@
         <activity
             android:name=".Activity.AcompanharViagemMapActivity"
             android:label="@string/title_activity_acompanhar_viagem_map" />
+        <activity
+            android:name=".Activity.LoginActivity"
+            android:label="@string/title_activity_login" />
+        <activity
+            android:name=".Activity.OptionsActivity"
+            android:label="@string/title_activity_options"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Activity.MotoristaItemActivity" />
+        <activity android:name=".Activity.ListaViagemActivity"></activity>
     </application>
 
 </manifest>
