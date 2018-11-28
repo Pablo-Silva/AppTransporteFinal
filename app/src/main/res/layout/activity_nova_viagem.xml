@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity.NovaViagemActivity">
+
+    <EditText
+        android:id="@+id/editEnderecoSaida"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Endereco Saida"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editEnderecoChegada"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Endereco Chegada"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/editNomeMotorista"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Nome Motorista"
+        android:inputType="textPassword" />
+
+
+
+    <Button
+        android:id="@+id/confirmarViagemButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_dark"
+        android:text="Button"
+        tools:text="Confirmar Viagem" />
+
+    <Button
+        android:id="@+id/voltarButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_dark"
+        android:text="Cancelar" />
+
+</LinearLayout>

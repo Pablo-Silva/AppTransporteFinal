@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity.NovoClienteActivity">
+
+    <EditText
+        android:id="@+id/editNomeCliente"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nome"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/editSenha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Senha"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/editDataNascimento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Data de Nascimento"
+        android:inputType="date" />
+
+    <EditText
+        android:id="@+id/editCpf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="CPF"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editTextDeficiencia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Deficiencia"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/cadastrarButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_dark"
+        android:text="Button"
+        tools:text="Cadastrar" />
+
+    <Button
+        android:id="@+id/voltarButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_dark"
+        android:text="Voltar" />
+
+
+</LinearLayout>
